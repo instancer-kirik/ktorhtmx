@@ -7,7 +7,7 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import com.instance.web.components.*
 import kotlinx.html.*
-fun Application.configureRouting() {//
+fun Application.configureRouting() {//r
     routing {
         get("/") {
             call.respondHtml(HttpStatusCode.OK){
